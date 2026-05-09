@@ -9,7 +9,7 @@ from datetime import datetime
 
 from groq import Groq
 
-client = Groq(api_key="your-groq-key-here")
+client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
 # ─────────────────────────────────────────────
 # Page config
